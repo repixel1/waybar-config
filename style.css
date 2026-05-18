@@ -1,0 +1,60 @@
+@import "style/colors.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  min-height: 0px;
+  border: none;
+  border-radius: 0;
+  font-size: 13px;
+  font-family: "Inter", "JetBrainsMono Nerd Font";
+}
+
+window#waybar {
+  background: @background;
+}
+
+#workspaces {
+  margin: 4px 5px;
+  padding: 6px 6px;
+  background-color: @container;
+  border-radius: 20px;
+}
+
+#workspaces button {
+  min-width: 32px;
+  padding: 0 4px;
+  margin: 0 2px;
+  background: @background;
+  border-radius: 16px;
+  color: white;
+}
+
+#workspaces button:hover {
+    box-shadow: none;
+}
+
+#custom-distro,
+#clock,
+#mpris,
+#tray,
+#pulseaudio,
+#network,
+#battery,
+#temperature,
+#cpu,
+#memory {
+  margin: 4px 5px;
+  padding: 6px 20px 6px;
+  background-color: @container;
+  border-radius: 20px;
+  color: white;
+}
+
+#tray.empty {
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 0;
+}
