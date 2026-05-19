@@ -5,6 +5,7 @@
     "max-length": 40,
     "format-paused": "{status_icon} {artist} - {title} [{position}/{length}]",
     "interval": 1,
+    "on-click": "pkill spotify",
     "status-icons": {
       "paused": "⏸"
     }
