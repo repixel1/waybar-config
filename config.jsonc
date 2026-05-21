@@ -15,12 +15,11 @@
     "./modules/groups.jsonc",
     "./modules/audio.jsonc",
     "./modules/connections.jsonc",
-    "./modules/battery.jsonc",
-    "./modules/temperature.jsonc",
+    "./modules/power.jsonc",
     "./modules/system.jsonc"
   ],
 
   "modules-left": ["custom/distro", "niri/workspaces"],
   "modules-center": ["clock", "power-profiles-daemon"],
-  "modules-right": ["mpris", "tray", "group/audio", "group/connections", "battery", "group/system", ],
+  "modules-right": ["mpris", "tray", "group/audio", "group/connections", "group/power", "group/system", ],
 }
