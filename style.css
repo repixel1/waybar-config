@@ -1,4 +1,5 @@
 @import "style/colors.css";
+@import "style/workspaces.css";
 @import "style/audio.css";
 @import "style/connections.css";
 @import "style/system.css";
@@ -15,26 +16,6 @@
 
 window#waybar {
   background: @background;
-}
-
-#workspaces {
-  margin: 4px 5px;
-  padding: 6px 6px;
-  background-color: @container;
-  border-radius: 20px;
-}
-
-#workspaces button {
-  min-width: 32px;
-  padding: 0 4px;
-  margin: 0 2px;
-  background: @background;
-  border-radius: 16px;
-  color: @text;
-}
-
-#workspaces button:hover {
-    box-shadow: none;
 }
 
 #custom-distro,

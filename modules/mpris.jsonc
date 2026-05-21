@@ -1,11 +1,10 @@
 {
   "mpris": {
     "player": "spotify",
-    "format": "{player_icon} {artist} - {title} [{position}/{length}]",
+    "format": "{artist} - {title} [{position}/{length}]",
     "max-length": 40,
     "format-paused": "{status_icon} {artist} - {title} [{position}/{length}]",
     "interval": 1,
-    "on-click": "pkill spotify",
     "status-icons": {
       "paused": "⏸"
     }

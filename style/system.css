@@ -9,6 +9,10 @@
 }
 
 #memory {
+  padding: 0 6px 0 12px;
+}
+
+#cpu {
   padding: 0 0px 0 6px;
 }
 

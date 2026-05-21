@@ -30,7 +30,8 @@
     },
     "modules": [
       "temperature",
-      "memory"
+      "memory",
+      "cpu"
     ]
   },
 }
