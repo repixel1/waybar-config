@@ -7,7 +7,8 @@
   },
   "backlight/slider": {
     "orientation": "horizontal",
-    "device": "intel_backlight"
+    "device": "intel_backlight",
+    "interval": 5
   },
   "battery": {
     "format": "{icon} {capacity}%",

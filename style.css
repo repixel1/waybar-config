@@ -24,7 +24,8 @@ window#waybar {
 #clock,
 #power-profiles-daemon,
 #mpris,
-#tray {
+#tray,
+#custom-clipboard {
   margin: 4px 5px;
   padding: 6px 20px;
   background-color: @container;

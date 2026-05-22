@@ -13,6 +13,7 @@
     "./modules/mpris.jsonc",
     "./modules/tray.jsonc",
     "./modules/groups.jsonc",
+    "./modules/clipboard.jsonc",
     "./modules/audio.jsonc",
     "./modules/connections.jsonc",
     "./modules/power.jsonc",
@@ -21,5 +22,5 @@
 
   "modules-left": ["custom/distro", "niri/workspaces"],
   "modules-center": ["clock", "power-profiles-daemon"],
-  "modules-right": ["mpris", "tray", "group/audio", "group/connections", "group/power", "group/system", ],
+  "modules-right": ["mpris", "tray", "custom/clipboard", "group/audio", "group/connections", "group/power", "group/system", ],
 }
