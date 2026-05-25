@@ -1,0 +1,5 @@
+@define-color background transparent;
+@define-color workspace-inactive rgba(255, 255, 255, 0.15);
+@define-color workspace-active #ffffff;
+@define-color container rgba(36, 36, 36, 0.5);
+@define-color text #ffffff; 

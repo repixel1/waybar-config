@@ -1,0 +1,26 @@
+{
+  "reload_style_on_change": true,
+  "layer": "top",
+  "position": "top",
+  "spacing": 0,
+  "height": 26,
+
+  "include": [
+    "./modules/distro.jsonc",
+    "./modules/workspaces.jsonc",
+    "./modules/clock.jsonc",
+    "./modules/power-profiles-daemon.jsonc",
+    "./modules/mpris.jsonc",
+    "./modules/tray.jsonc",
+    "./modules/groups.jsonc",
+    "./modules/clipboard.jsonc",
+    "./modules/audio.jsonc",
+    "./modules/connections.jsonc",
+    "./modules/power.jsonc",
+    "./modules/system.jsonc"
+  ],
+
+  "modules-left": ["custom/distro", "niri/workspaces", "tray", "mpris"],
+  "modules-center": ["clock", "power-profiles-daemon"],
+  "modules-right": ["custom/clipboard", "group/audio", "group/connections", "group/power", "group/system", ],
+}

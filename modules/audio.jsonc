@@ -1,0 +1,17 @@
+{
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "scroll-step": 5,
+    "format-muted": "",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "format-icons": {
+      "headphone": "",
+      "headset": "",
+      "default": ["", "", " "]
+    }
+  },
+  "pulseaudio/slider": {
+    "orientation": "horizontal",
+    "interval": 10
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "clock": {
+    "format": " {:%H:%M}",
+    "format-alt": " {:L%d %B %Y}",
+    "tooltip": false
+  }
+}

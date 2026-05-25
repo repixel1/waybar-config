@@ -1,0 +1,34 @@
+{
+  "group/audio": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 650,
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "pulseaudio"
+    ]
+  },
+  "group/connections": {
+    "orientation": "horizontal",
+    "modules": [
+      "bluetooth",
+      "network"
+    ]
+  },
+  "group/power": {
+    "orientation": "horizontal",
+    "modules": [
+      "backlight",
+      "battery"
+    ]
+  },
+  "group/system": {
+    "orientation": "horizontal",
+    "modules": [
+      "temperature",
+      "memory",
+      "cpu"
+    ]
+  }
+}

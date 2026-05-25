@@ -1,0 +1,33 @@
+{
+  "network": {
+    "format-wifi": "{icon}",
+    "format-ethernet": "",
+    "format-linked": "󱘖",
+    "format-disconnected": "󰤣",
+    "format-disabled": "󰤮",
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ],
+    "tooltip-format-disconnected": "No Connection",
+    "tooltip-format-disabled": "Wi-Fi is OFF",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)\nFreq: {frequency}GHz",
+    "tooltip-format-ethernet": "󰈀  {ifname} (Connected)",
+    "tooltip-format-linked": "󱘖 {ifname}: No IP Address"
+  },
+
+  "bluetooth": {
+    "format": "󰂯",
+    "format-connected": "󰂱",
+    "format-disabled": "󰂲",
+    "tooltip-format": "{controller_alias} {status}",
+    "tooltip-format-connected": "󰐻  {num_connections} Connected:\n{device_enumerate}",
+    "tooltip-format-enumerate-connected-battery": "󰂱  {device_alias} (󰠠  {device_battery_percentage}%)",
+    "on-click": "ghostty -e bluetui",
+    "on-click-right": "rfkill toggle bluetooth"
+  }
+}
+

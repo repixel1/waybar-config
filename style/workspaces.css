@@ -1,0 +1,31 @@
+@import "colors.css";
+
+#workspaces button:hover {
+    box-shadow: none;
+    color: transparent;
+    text-shadow: none;
+}
+
+#workspaces {
+    padding: 10px 10px;
+    background-color: @container;
+    margin: 5 0;
+    border-radius: 25px
+}
+
+#workspaces button {
+    transition: all 0.2s ease-in-out;
+    padding: 0 0px;
+    background-color: @workspace-inactive;
+    border-radius: 20px;
+    min-width: 30px;
+    margin: 0 3px;
+    color: transparent;
+}
+
+#workspaces button.active {
+    transition: all 0.3s ease-in-out;
+    min-width: 45px;
+    background-color: @workspace-active;
+}
+
